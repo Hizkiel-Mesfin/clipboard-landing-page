@@ -1,0 +1,295 @@
+/* 
+COLORS:
+
+  + PRIMARY
+- Strong Cyan: #26baa4
+- Light Blue: #6173ff
+  
+  + NEUTRAL
+ - Dark Grayish Blue: #4c545d
+ - Grayish Blue: #9fabb2
+
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8rem;
+  color: #4c545d;
+}
+
+/*****************/
+/* REUSABLE */
+/*****************/
+
+.flex-container {
+  display: flex;
+}
+
+/*****************/
+/* HEADER */
+/*****************/
+
+.header {
+  height: 50rem;
+  background-image: url(images/bg-header-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+}
+
+.center {
+  width: 30%;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 15%;
+  margin-bottom: 3.6rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
+
+.header-text {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #9fabb2;
+  margin-bottom: 4.2rem;
+  line-height: 1.6;
+}
+
+.btn-box {
+  gap: 2rem;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 1.4rem 3.2rem;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s;
+}
+
+.btn:hover {
+  transform: translateY(6px);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-ios {
+  background-color: #26baa4;
+}
+
+.btn-mac {
+  background-color: #6173ff;
+}
+
+/***********************/
+/* SECTION KEEP ACCESS */
+/***********************/
+
+.section-keep-access {
+  margin-bottom: 8rem;
+}
+
+.sub-heading {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+
+.keep-access-text {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #9fabb2;
+  margin-bottom: 5rem;
+  line-height: 1.6;
+}
+
+.monitor {
+  gap: 6rem;
+  margin-bottom: 10rem;
+  align-items: center;
+}
+
+.img-monitor {
+  width: 50%;
+  height: 50rem;
+  margin-left: -2rem;
+}
+
+.monitor-text {
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.text-box {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.monitor-text-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.monitor-text-description {
+  font-size: 1.4rem;
+  color: #26baa4;
+  line-height: 1.6;
+}
+
+.tablet {
+  margin-bottom: 5rem;
+}
+
+.img-tablet-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.img-tablet {
+  width: 45%;
+}
+
+/************************/
+/* SECTION SUPERCHARGER */
+/************************/
+
+.section-supercharge {
+  margin-bottom: 10rem;
+}
+
+.supercharger-top {
+  margin-bottom: 8rem;
+}
+
+.productivity-tools {
+  margin-bottom: 5rem;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  width: 80%;
+  margin: 0 auto 15rem auto;
+}
+
+.tool {
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.tool-logo {
+  width: 15%;
+  margin-bottom: 4rem;
+}
+
+.tool-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.tool-text {
+  font-size: 1.2rem;
+  color: #26baa4;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.company-logos {
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15rem;
+}
+
+.company-logo {
+  width: 10%;
+}
+
+/****************/
+/* FOOTER */
+/****************/
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 3rem 0 3rem 0;
+}
+
+.footer-container {
+  margin: 0 auto 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+}
+
+.footer-logo {
+  width: 20%;
+  margin-right: 4rem;
+}
+
+.footer-text:link,
+.footer-text:visited {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #4c545d;
+}
+
+.footer-text:hover,
+.footer-text:active {
+  color: #6173ff;
+}
+
+.social-box {
+  gap: 1.4rem;
+  grid-column: 5 / 7;
+  grid-row: 1;
+  justify-self: end;
+}
+
+.install {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.contact {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.press {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.social-media {
+  width: 30%;
+}
