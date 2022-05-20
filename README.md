@@ -2,3 +2,5 @@ This is a 100% responsive page
 
 Here is the link
 https://clipboard-landing-page-ezekiel.netlify.app/
+
+Author : Ezekiel
