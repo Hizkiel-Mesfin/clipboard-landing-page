@@ -5,6 +5,4 @@ https://clipboard-landing-page-ezekiel.netlify.app/
 
 Author : Ezekiel
 
-
-this is the second branch 
-things added on github to the seond branch
+here i go doing something again on vscode
